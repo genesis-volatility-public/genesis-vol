@@ -65,11 +65,8 @@
           <ul class="nav-inner">
             <li class="active"><a href="#hero">Home</a></li>
             <li class="drop-down">
-              <a href="">About</a>
-              <ul>
-                <li><a href="#services">About Us</a></li>
-                <li><a href="#team">Team</a></li>
-              </ul>
+              <a href="#services">About</a>
+            
             </li>
 
             <li><a href="#portfolio">Product</a></li>
@@ -102,7 +99,7 @@
                   <p> - Understand how implied volatilty is being priced.</p>
                    <p> - Explore if volume is being traded more towards calls or puts.</p> 
                   <p> - Get a picture of the currently liquidity profile of the orderbook.</p>
-                  <p> - See how ATM implied volatility has moved through the week.</p>
+                  <p> - See how ATM implied volatility has moved throughout the week.</p>
                 </p>
               </div>
               <div
@@ -113,10 +110,10 @@
                 <i class="bx bxs-calendar"></i>
                 <h4>Historical Orderbook Analytics</h4>
                 <p>
-                  <p> - Find where historic volatility has been priced to get context to where it is currently priced. </p>
-                  <p> - Analyze the term structures in different volatility environments and how much premium was traded. </p>
-                  <p> - Explore how volume has trended over time and if volume is align more to the put or call side. </p>
-                  <p> - View granular times and sales trade date. </p>
+                  <p> - Contextualize volatility with historical data. </p>
+                  <p> - Analyze the term structure in different volatility environments. </p>
+                  <p> - Explore volume trends and put/call ratios. </p>
+                  <p> - View granular times and sales trade data. </p>
                 </p>
               </div>
               <div
@@ -128,8 +125,8 @@
                 <h4>Realized Volatility and Portfolio Analysis</h4>
                 <p>
                   <p>- Study the volatility cones  to see where volatility has been and currently is.</p>
-                  <p>- Compare realized volatility to implied volatility over time. Dive deep in to delta buckets and expiration of interest. 
-                  <p>- Understand how a portfolio of Alt-Coins perform compared to BTC/ETH. Hedge your alt-coin portfolio with options based on the volatility of your portfolio.</p>
+                  <p>- Compare realized volatility to implied volatility over time. Dive deep in to different delta buckets and expirations of interest.  </p>
+                  <p>- Understand how a portfolio of alt-Coins perform compared to BTC/ETH. Hedge your alt-coin portfolio with BTC options.</p>
                 </p>
               </div>
               <div
@@ -294,7 +291,7 @@
                   <a class="nav-link" data-toggle="tab" href="#tab-3">
                     <h4>Manage Risk</h4>
                     <p>
-                      Monitor orderbook activity to manage your risk. 
+                      Monitor order book activity to manage your risk. 
                     </p>
                   </a>
                 </li>
@@ -439,7 +436,7 @@
           <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
-                <li data-filter=".filter-current" class="filter-active">Current Orderbook</li>
+                <li data-filter=".filter-current" class="filter-active">Current Order Book</li>
                 <li data-filter=".filter-historic">Historical Analytics</li>
                 <li data-filter=".filter-realized">Realized Volatility</li>
                 <!-- <li data-filter=".filter-defi">DeFi Options Analytics</li> -->
@@ -500,7 +497,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-currrent">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-current">
               <div class="portfolio-wrap">
                 <img
                   src="assets/img/product/current/term-structure.png"
@@ -516,30 +513,6 @@
                       data-gall="portfolioGallery"
                       class="venobox"
                       title="App 2"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-current">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/product/current/pie-chart.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Order Book Activity</h4>
-                  <p></p>
-                  <div class="portfolio-links">
-                    <a
-                      href="assets/img/product/current/pie-chart.png"
-                      data-gall="portfolioGallery"
-                      class="venobox"
-                      title="Card 2"
                       ><i class="bx bx-plus"></i
                     ></a>
                     
@@ -644,7 +617,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-realized">
               <div class="portfolio-wrap">
                 <img
                   src="assets/img/product/historic/realized-vol.png"
@@ -667,6 +640,32 @@
                 </div>
               </div>
             </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-realized">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/product/historic/portfolio-tool.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Portfolio Analysis</h4>
+                  <p></p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/product/historic/portfolio-tool.png"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="Web 3"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
           </div>
         </div>
       </section>
